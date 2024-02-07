@@ -1,9 +1,0 @@
-replicaCount: 3
-
-image: 
-  repository: us-central1-docker.pkg.dev/terraform-project-iarust/artemis/artemis
-  tag: "2.0.0"
-
-service:
-  type: ClusterIP
-  port: 5000
