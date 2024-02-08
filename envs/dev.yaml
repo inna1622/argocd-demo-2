@@ -13,7 +13,7 @@ ingress:
   annotations: 
       nginx.ingress.kubernetes.io/proxy-body-size: "0"
       ingress.kubernetes.io/ssl-redirect: "false"
-      cert-manager.io/cluster-issuer: letsencrypt-prod
+      cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
       acme.cert-manager.io/http01-edit-in-place: "true"
   hosts:
     - host: dev-artemis.silvercloudmarketing.com
